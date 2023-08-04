@@ -1,3 +1,4 @@
+```
 /* Шаблон интеграции контроллера замков в WirenBoard
 Контроллер замков — LockerBox Slave-LB8 (https://oem.lockerbox.ru/)
 ver 0.1, by Mitrofanov A., 04.08.2023
@@ -111,3 +112,4 @@ function openLockerOddMinutes()	{
 
 setInterval(checkMinutes, 3000) // Каждые три секунды обновляем дату/время
 setInterval(openLockerOddMinutes, 3000) // Открываем локер, если минута чётная
+```
